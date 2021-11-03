@@ -1,0 +1,878 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 15px arial;
+    padding: 0;
+    margin: 0;
+    background: url('../img/Pared.jpg');
+    
+
+}
+.contenedor{
+ 
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    
+    
+}
+
+
+ /*Diseño del encabezado*/ 
+
+ header::before {
+    content: "";
+    display: block;
+    margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+    background: url(../img/pergaminos.jpg);
+    Color: rgb(0, 0, 0);
+    height: 98px;
+    border: 5px  rgb(223, 213, 158) ridge;
+    border-radius: 10px;
+    margin: 10px;
+
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+
+}
+nav a{
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    
+    
+}
+
+nav li{
+    display: flex;
+    float: left;
+    display: inline;
+    
+
+
+}
+.nav .logo {
+
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+nav .logo h1{
+
+text-shadow: 0px 0px 20px rgb(0, 0, 0);
+font-size: 40px;
+
+}
+.enlaces-header i{
+  margin-right: 5px;
+    
+
+}
+.enlaces-header {
+    display: flex;
+    font-weight: 300;
+    transition: ease-in-out 0.10s;
+   
+    
+}
+
+
+nav .enlaces-header a{
+    display: flex;
+    margin-left: 30px;
+
+}
+nav .resaltado, header .actual a {
+   
+    color: #7a0404;
+    font-weight:bold;
+
+}
+
+#cabecera .Rojo{
+    color: #7a0404;
+    
+}
+nav a:hover{
+    display: flex;
+    color:#fff;
+    font-weight: bold;
+    
+}
+.hamburguer {
+    position: fixed;
+    display: none;
+    margin-top: 20px;
+    right: 30px;
+    background: url(../img/Pared.jpg);
+    text-shadow: 0px 0px 7px #ffffff;
+    color: #790000;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    z-index: 10000;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: color 0.5s ease-in;
+}
+
+.hamburguer>i {
+    
+    font-size: 25px;
+    line-height: 40px;
+}
+/*Diseño del contenido*/
+#cabecera{
+    
+    min-height: 400px;
+    background: url('../img/Guitarra\ 3.png');
+    background-repeat: no-repeat 0 -400;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    border: 5px grey ridge;
+    border-radius: 10px;
+    margin: 20px;
+}
+#cabecera h1{
+    margin-top: 100px;
+    font-size: 60px;
+    margin-bottom: 10px;
+   
+}
+.contenedor>a{
+    
+    width: 110px;
+    display: inline-block;
+    background: #000000d5;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px grey double;
+    
+}
+#cabecera p{
+    font-size: 35px;
+
+
+}
+/*Diseño de suscribete a nuestras clases*/
+#boletín{
+   
+    padding: 15px;
+    color: #fff;
+    border: 5px  rgb(129, 129, 129) double;
+    border-radius: 10px;
+    margin: 10px;
+   
+}
+#boletín h2{ 
+    float: left;
+    color: #fcfcfc;
+    font: 30px Old English Text MT;
+    text-shadow: 0px 0px 10px rgb(255, 253, 253);
+}
+#boletín form{
+    float: right;
+    margin-top: 15px;
+
+}
+#boletín input[type="email"]{
+    padding: 4px;
+    height: 35px;
+    width: 250px;
+}
+
+.boton1{
+    height: 38px;
+    background-color: #7a0404;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+/*Diseño de las cajas de guitarra, piano y tecnica vocal*/
+.contenedors{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    
+}
+#cajas{
+  display: flex;
+    margin-top: 20px;
+    background: url(../img/Pared.jpg);
+    
+}
+
+#cajas .caja{
+ 
+float: left;
+text-align: center;
+width: 30%;
+padding: 8px;
+border-radius: 10px;
+margin: 5px;
+background: url(../img/pergaminos.jpg);
+box-shadow: 0px 0px 10px rgb(0, 0, 0);
+border: 2px  rgba(252, 248, 197, 0.685) ridge;
+
+}
+
+#cajas .caja img{
+    width: 90px;
+    
+}
+
+#logo{
+    
+   margin:-40px 90px;
+   padding-top: 18px;
+   
+}
+#cajas .caja img{
+    border: 1px solid #7a0404 ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+#cajas .caja h3{
+    border-radius: 5px;
+    background: #7a0404;
+    color: rgb(255, 255, 255);
+    font: 20px Old English Text MT;
+}
+
+/*Diseño del link de nosotros*/
+aside#lateral{
+    display: flex;
+    float: right;
+    width: 28%;
+    margin-top: 10px;
+    
+    
+    
+}
+aside>img{
+    float: right;
+    width: 35%;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px  rgb(255, 253, 253);
+
+   
+}
+
+
+article#main-nosotros{
+    float: left;
+    width: 65%;
+}
+.oscuro{
+ 
+    background: url('../img/pergamino\ 1.png');
+    background-position: center;
+    background-size: cover;
+    padding: 18px;
+    color: #000000;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    
+  
+   
+   
+}
+.oscura{
+    padding: 15px;
+    background: url('../img/pergaminos.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 10px  rgba(252, 248, 197, 0.685) ridge;
+    color: #000000;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+   
+   
+}
+.azul{
+
+    padding: 15px;
+    background: url('../img/pergaminos.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 10px  rgba(252, 248, 197, 0.685) ridge;
+    color: #000000;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+/* Diseño del link servicios*/
+.sservicios{
+   
+    padding: 5px;
+    background-color: #000000;
+    color: #000000;
+    margin: 10px 10px 10px 10px;
+    border: 2px  rgb(255, 0, 0) ridge;
+    border-radius: 10px;
+}
+article#main-col{
+    
+    float: left;
+    width: 60%;
+    
+    
+}
+
+
+article#main-col .texto-borde{
+    
+    color: #ffffff;
+    text-shadow: 0px 0px 20px rgb(255, 0, 0);
+    
+    
+}
+article#contacto{
+    float: left;
+    width: 40%;
+    text-shadow: 0px 0px 20px rgb(255, 0, 0);
+    
+}
+
+.texto-borde{
+    color: #ffffff;
+
+    
+}
+#servicios li img{
+border-radius: 10px;
+}
+#servicios h3{
+    padding-left: 20px;
+}
+ul#servicios li{
+    list-style: none;
+    padding: 1px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: #000000;
+    border: 2px  rgba(253, 0, 0, 0.795) ridge;
+    
+}
+/*Diseño del link contacto*/
+input , textarea{
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgb(0, 0, 0);
+    }
+    
+    textarea{
+        height: 120px;
+    }
+    
+    input[type="submit"]{
+        width: 25%;
+        background-color: #000000;
+        color:  #ffffff;
+    
+    }
+    input[type="reset"]{
+        width: 25%;
+        background-color: #ffffff;
+        color:  #000000;
+        
+    }
+    #contacto input[type="checkbox"]{
+        width: 15px;
+        height: 15px;
+        
+    }
+    
+      
+    
+/*Diseño del link más*/
+.columnas h2{
+    text-align: left;
+    margin-left: 110px;
+    
+}
+.nubes>h2{
+    display: flex;
+    text-align: left;
+   margin-top: -45px;
+   margin-right: 60px;
+   color: white;
+   flex-wrap: wrap;
+}
+
+
+.cajitasgrid{
+ display: flex;
+ justify-content: space-between;
+ margin: 20px;
+ flex-wrap: wrap;
+ 
+ 
+}
+
+
+.contenedores{
+    display:flex;
+    margin-top: 30%;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
+ 
+    
+
+
+}
+
+/*carrusel automático*/
+
+.content-all{
+    width: 160px;
+    margin: auto;
+margin-top: 35px;
+    perspective: 1000px;
+    position: relative;
+    
+    
+    
+
+}
+.content-carrousel{
+
+    width: 100%;
+    position:absolute;
+    animation: rotar 40s infinite linear;
+    transform-style: preserve-3d;
+    
+
+  
+}
+.content-carrousel:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+
+.content-carrousel img{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position:absolute;
+    box-shadow: 0px 0px 20px 0px rgb(255, 255, 255);
+    transition: 300ms;
+    
+}
+.content-carrousel img:hover{
+box-shadow: 0px 0px 0px 0px white;
+transition: 600ms;
+}
+.content-carrousel figure:nth-child(1){
+transform:rotateY(0deg) translateZ(300px);
+}
+.content-carrousel figure:nth-child(2){
+transform:rotateY(40deg) translateZ(300px);
+}
+.content-carrousel figure:nth-child(3){
+transform:rotateY(80deg) translateZ(300px);
+}
+.content-carrousel figure:nth-child(4){
+transform:rotateY(120deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(5){
+    transform:rotateY(160deg) translateZ(300px);
+}
+    .content-carrousel figure:nth-child(6){
+        transform:rotateY(200deg) translateZ(300px);
+    }
+        .content-carrousel figure:nth-child(7){
+            transform:rotateY(240deg) translateZ(300px);
+        }
+            .content-carrousel figure:nth-child(8){
+                transform:rotateY(280deg) translateZ(300px);
+            }
+                .content-carrousel figure:nth-child(9){
+                    transform:rotateY(320deg) translateZ(300px);
+                }
+                    .content-carrousel figure:nth-child(10){
+                        transform:rotateY(360deg) translateZ(300px);
+}
+
+
+.content-carrousel img:hover{
+transform: scale(1.2);
+transition: all 600ms;
+
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
+
+footer {
+    background: url(../img/Fondo\ De\ Madera.jpg);
+    padding: 5px 5px 5px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    height: 300px;
+    border-top: 2px  rgba(252, 248, 197, 0.685) ridge;
+    
+    
+    
+}
+
+.partFooter {
+    width: 30%;
+    text-align: center;
+    margin: 20px;
+   
+}
+
+.partFooter h4 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    text-shadow:0px 0px 10px rgb(30, 255, 0); 
+}
+
+.partFooter a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+    transition: color .3s ease-in-out;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+.partFooter .fa-facebook-f:hover{
+    background: #3b5998;
+    color: white;
+}
+.partFooter .fa-instagram:hover{
+    background: linear-gradient(to top right, #fcde30, #e9712a, #d2313b, #ae4198, #7540a1, #5443a8);
+    color: white;
+}
+.partFooter .fa-linkedin-in:hover{
+    background: #006192;
+    color: white;
+}
+.redes{
+    margin-right: 50px;
+}
+
+.partFooter img {
+    width: 70%;
+}
+
+.social-media i {
+    font-size: 20px;
+    display: inline-block;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: all ease-in-out .3s;
+    margin-right: 5px;
+}
+.partFooter>h1{
+    margin-top: -5px;
+    margin-left: 30px;
+    text-shadow:0px 0px 10px rgb(255, 255, 255);
+    
+}
+.partFooter .resaltado{
+    color: #7a0404;
+}
+.partFooter p{
+
+    font-size: 17px;
+    text-align: justify;
+    color: #ffffff;
+    font-weight: 100;
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.container-footer hr{
+    margin-top:-20px;
+    border: none;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.533);
+    width: 900px;
+}
+.container-footer h4{
+    text-align: center;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.533);
+    font-weight: bold;
+}
+
+h1 {
+    font-family: Old English Text MT;
+}
+.contenedor>p{
+    font-family:Blackadder ITC;
+    
+}
+/*diseño responsive*/
+
+
+@media screen and (max-width:600px) {
+    .hamburguer{
+        display: block;
+    }
+    .hamburguer{
+        top: -7px;
+        right: 15px;
+    }
+    h1 {
+
+        font-size: 30px;
+       
+    }
+    #cabecera {
+        height: 835px;
+    }
+  
+    .nav {
+        padding: 0 10px;
+        
+    }
+    
+ 
+    .enlaces-header {
+        position: fixed;
+        background: url(../img/Pared.jpg);
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        z-index: 10000;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        clip-path: circle(0.0% at 100% 0);
+        
+    }
+    .nav .menudos {
+        -webkit-clip-path: circle(150% at 100% 0);
+        clip-path: circle(150% at 100% 0);
+        
+    }
+    .nav .enlaces-header a{
+        color: rgb(255, 0, 0);
+       background: #00000093;
+        font-weight: bold;
+        box-shadow: 0px 0px 10px #ff0000;
+      
+          
+    }
+    .nav .enlaces-header ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 60vh;
+        align-items: center;
+    }
+
+   
+ /* cajas contenido inicio*/
+    .contenedors{
+       width: 100%;
+        height: 570px;
+    }
+   .caja{
+      height: 560px;
+   }
+    /* Footer */
+    footer {
+        height: 680px;
+          
+    }
+    .partFooter{
+        margin: 10px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+    }
+    /*nosotros*/
+    .azul{
+        width: 325px;
+    }
+    .oscura{
+        width: 325px;
+    }
+    #main-nosotros>img{
+      
+        width: 325px;
+
+    }
+
+aside#lateral{
+    display: flex;
+    margin-right: 280px;
+    width: 28px;
+    
+      
+}
+.oscuro{
+    width: 500px;
+    height: 620px;
+}
+/*servicios*/
+article#main-col{
+    
+    width: 325px;
+}
+aside>img{
+    width: 325px;
+}
+/*contacto*/
+article#contacto{
+    width: 330px;
+}
+/*Más*/
+.columnas{
+    height: 480px;
+    margin: 5px;
+}
+  
+.cajitasgrid video{
+    display: flex;
+   width: 100%;
+   height: 100%;
+   margin-top: -15px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  
+
+  
+  
+}
+.nubes{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin-top: 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.container h2{
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+/*carrousel*/
+.content-all{
+
+    width: 80px;
+
+ 
+}
+.content-carrousel img{
+    width: 100%;
+    height: 100px;
+    
+    
+}
+.content-carrousel figure:nth-child(1){
+    transform:rotateY(0deg) translateZ(150px);
+    }
+    .content-carrousel figure:nth-child(2){
+    transform:rotateY(40deg) translateZ(150px);
+    }
+    .content-carrousel figure:nth-child(3){
+    transform:rotateY(80deg) translateZ(150px);
+    }
+    .content-carrousel figure:nth-child(4){
+    transform:rotateY(120deg) translateZ(150px);
+    }
+    
+    .content-carrousel figure:nth-child(5){
+        transform:rotateY(160deg) translateZ(150px);
+    }
+        .content-carrousel figure:nth-child(6){
+            transform:rotateY(200deg) translateZ(150px);
+        }
+            .content-carrousel figure:nth-child(7){
+                transform:rotateY(240deg) translateZ(150px);
+            }
+                .content-carrousel figure:nth-child(8){
+                    transform:rotateY(280deg) translateZ(150px);
+                }
+                    .content-carrousel figure:nth-child(9){
+                        transform:rotateY(320deg) translateZ(150px);
+                    }
+                        .content-carrousel figure:nth-child(10){
+                            transform:rotateY(360deg) translateZ(150px);
+    }
+
+    .contenedores{
+        display:flex;
+        margin-top: 50%;
+      
+     
+    }
+    .contenedores img{
+        height: 60px;
+        width: 60px;
+    }
+}
