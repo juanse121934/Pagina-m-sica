@@ -220,11 +220,19 @@ nav a:hover{
     margin: auto;
     overflow: hidden;
     
+    
+}
+.caja{
+    padding: 10px;
+}
+.caja p{
+    margin-top: 10px;
 }
 #cajas{
   display: flex;
     margin-top: 20px;
     background: url(../img/Pared.jpg);
+    
     
 }
 
@@ -568,6 +576,9 @@ footer {
     margin: 20px;
    
 }
+.partFooter h1{
+    padding-bottom: 20px;
+}
 
 .partFooter h4 {
     color: #ffffff;
@@ -575,7 +586,7 @@ footer {
     font-weight: 400;
     margin-bottom: 30px;
     margin-left: 50px;
-    text-shadow:0px 0px 10px rgb(30, 255, 0); 
+    text-shadow:0px 0px 10px rgb(0, 0, 0); 
 }
 
 .partFooter a {
